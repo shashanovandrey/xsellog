@@ -8,17 +8,17 @@ gcc -O2 -s -lxcb -lxcb-xfixes -lz -o xsellog xsellog.c
 */
 
 #include <errno.h>
-#include <fcntl.h>
-#include <pwd.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <fcntl.h>
+#include <pwd.h>
 #include <sys/stat.h>
+#include <zlib.h>
 #include <xcb/xcb_atom.h>
 #include <xcb/xcb_event.h>
-#include <xcb/xcb.h>
 #include <xcb/xfixes.h>
-#include <zlib.h>
+#include <xcb/xcb.h>
 
 #include "common.h"
 

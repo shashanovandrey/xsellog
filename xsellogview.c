@@ -19,12 +19,12 @@ Command for rofi: rofi -modi CLIPBOARD:xsellogview -show CLIPBOARD
 #endif
 
 #include <errno.h>
-#include <fcntl.h>
-#include <pwd.h>
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <fcntl.h>
+#include <pwd.h>
 #include <sys/mman.h>
 #include <sys/stat.h>
 #include <unistd.h>
